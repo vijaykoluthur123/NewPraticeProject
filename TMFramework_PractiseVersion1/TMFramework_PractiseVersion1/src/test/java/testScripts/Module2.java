@@ -38,4 +38,9 @@ public class Module2 extends BaseClass
 
 		driver.quit();
 	}
+	@Test
+	public void Testcase2()
+	{
+		System.out.println("sencond test case");
+	}
 }
