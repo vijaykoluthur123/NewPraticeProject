@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68855" started-at="2019-04-21T03:59:10Z" finished-at="2019-04-21T04:00:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68855" started-at="2019-04-21T03:59:10Z" finished-at="2019-04-21T04:00:19Z">
+      <class name="testScripts.Module2">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:testScripts.Module2@192d3247]" name="BeforeClass" is-config="true" duration-ms="39" started-at="2019-04-21T03:59:49Z" finished-at="2019-04-21T03:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:testScripts.Module2@192d3247]" name="beforemethod" is-config="true" duration-ms="27" started-at="2019-04-21T03:59:49Z" finished-at="2019-04-21T03:59:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.Module2.TC201()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="TC201()[pri:0, instance:testScripts.Module2@192d3247]" name="TC201" duration-ms="29489" started-at="2019-04-21T03:59:49Z" finished-at="2019-04-21T04:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC201 -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testScripts.Module2@192d3247]" name="aftermethod" is-config="true" duration-ms="97" started-at="2019-04-21T04:00:19Z" finished-at="2019-04-21T04:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC201 status=SUCCESS method=Module2.TC201()[pri:0, instance:testScripts.Module2@192d3247] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:testScripts.Module2@192d3247]" name="AfterClass" is-config="true" duration-ms="1" started-at="2019-04-21T04:00:19Z" finished-at="2019-04-21T04:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- testScripts.Module2 -->
+      <class name="testScripts.Module1">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:testScripts.Module1@7cbd213e]" name="beforesuite" is-config="true" duration-ms="304" started-at="2019-04-21T03:59:10Z" finished-at="2019-04-21T03:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:testScripts.Module1@7cbd213e]" name="BeforeClass" is-config="true" duration-ms="927" started-at="2019-04-21T03:59:10Z" finished-at="2019-04-21T03:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:testScripts.Module1@7cbd213e]" name="beforemethod" is-config="true" duration-ms="123" started-at="2019-04-21T03:59:11Z" finished-at="2019-04-21T03:59:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.Module1.TC101()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="TC101()[pri:0, instance:testScripts.Module1@7cbd213e]" name="TC101" duration-ms="37148" started-at="2019-04-21T03:59:11Z" finished-at="2019-04-21T03:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101 -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testScripts.Module1@7cbd213e]" name="aftermethod" is-config="true" duration-ms="965" started-at="2019-04-21T03:59:48Z" finished-at="2019-04-21T03:59:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC101 status=SUCCESS method=Module1.TC101()[pri:0, instance:testScripts.Module1@7cbd213e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:testScripts.Module1@7cbd213e]" name="AfterClass" is-config="true" duration-ms="1" started-at="2019-04-21T03:59:49Z" finished-at="2019-04-21T03:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:testScripts.Module1@7cbd213e]" name="aftersuite" is-config="true" duration-ms="6149" started-at="2019-04-21T04:00:19Z" finished-at="2019-04-21T04:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testScripts.Module1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
